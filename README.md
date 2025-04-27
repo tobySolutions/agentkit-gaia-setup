@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the p
 You can [modify your configuration](https://github.com/coinbase/agentkit/tree/main/typescript/agentkit#usage) of the agent. By default, your agentkit configuration occurs in the `/api/agent/prepare-agentkit.ts` file, and agent instantiation occurs in the `/api/agent/create-agent.ts` file.
 
 ### 1. Select Your LLM  
-Modify the OpenAI model instantiation to use the model of your choice.
+Setu-p a [Gaia node](https://github.com/GaiaNet-AI/node-configs/tree/main/llama-3-groq-8b-tool) with tool use inferencing.
 
 ### 2. Select Your Wallet Provider  
 AgentKit requires a **Wallet Provider** to interact with blockchain networks.
